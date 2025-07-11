@@ -222,11 +222,6 @@ end)
 local Button = Tab:CreateButton({
    Name = "Aimbot",
    Callback = function()
-   Rayfield:Notify({
-   Title = "Note",
-   Content = "Only works for pc! Press E",
-   Duration = 6.5,
-   Image = 4483362458,
    local teamCheck = false
 local fov = 90
 local smoothing = 0.02
@@ -364,7 +359,4 @@ loop = RunService.RenderStepped:Connect(function()
         end
     end
 end)
-})
-
-
-
+end})
